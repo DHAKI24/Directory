@@ -1,0 +1,233 @@
+body{
+    background-image: url(/Directory-ads/images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: none !important;
+}
+
+.collapse{
+    margin-left: 300px;
+}
+
+.collapse .nav-item{
+    margin-left: 20px;
+}
+
+.login{
+    margin-left: 220px;
+    word-spacing: 30px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/*banner-section8*/
+
+.banner-section{
+    height: 60vh;
+}
+
+.head{
+    font-size: 60px;
+    color: white;
+    padding-top: 200px;
+}
+
+.tail{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/*ads section*/
+
+.ads{
+    background-color: #F8F9FA;
+    height: 80vh;
+}
+
+.ads .feat{
+    padding: 60px 0 0 80px;
+    font-size: 20px;
+}
+
+.ads .container{
+    margin-top: 30px;
+}
+
+.tag-name{
+    padding-top: 20px;
+}
+
+.tag-name a{
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.circle{
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(19, 162, 234);
+    float: right;
+    font-size: 15px;
+}
+
+.circle:hover{
+    transition-duration: 0.5s;
+    background-color: red;
+    color: white;
+}
+
+/*Testimonials section*/
+
+.testimonials{
+    background-color: #F8F9FA;
+    height: 80vh;
+}
+
+.test{
+    font-size: 35px;
+    font-weight: 500;
+    color: #2F89FC;
+    padding-top: 50px;
+}
+
+.testimonials .container{
+    padding: 0 100px;
+}
+
+.stroke{
+    margin-left: 40%;
+    border: 2px solid #2F89FC;
+    width: 20%;
+}
+
+.round-1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(/image/download.jpeg);
+    background-size: cover;
+}
+
+.round-2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(/image/bradd\ pitt.jpg);
+    background-size: cover;
+}
+
+.round-3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-image: url(/image/matt.jpg);
+    background-size: cover;
+}
+
+.definition{
+    font-size: 25px;
+    text-align-last: center;
+}
+
+/*news section*/
+
+/*news section*/
+
+.news{
+    background-color: #2F89FC;
+    height:30vh;
+}
+.news input
+{
+    background-color:rgba(255, 255, 255, 0);
+    border-style: none;
+    border-bottom: 2px solid #ffffff;
+    border-radius:0%;
+}
+input:focus
+{
+    background-color:rgba(255, 255, 255, 0) !important;
+    background-image: none!important;
+    outline: none!important;
+    box-shadow: none!important;
+   
+
+}
+.news input::placeholder
+{
+    color: white!important;
+}
+.news .container{
+    padding-top: 80px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #333333;
+    color: gray;
+    height: 50vh;
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    color: gray
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+    letter-spacing: 30px;
+}
+
+.icons a{
+    color: gray;
+}
+
+.icons a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+footer h5{
+    margin-top: 50px;
+}
+
+.defi, .icons{
+    margin-top: 50px;
+}
+
+.list-unstyled{
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.list-unstyled a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.col-md-2{
+    padding-top: 50px;
+}
+
+.last-line{
+    margin-top: 50px;
+    word-spacing:10px;
+}

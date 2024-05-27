@@ -1,0 +1,118 @@
+body{
+    background-image: url(/Directory-login/images/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    background-color: none !important;
+}
+
+.collapse{
+    margin-left: 300px;
+}
+
+.collapse .nav-item{
+    margin-left: 20px;
+}
+
+.login{
+    margin-left: 220px;
+    word-spacing: 30px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+/*banner-section8*/
+
+.banner-section{
+    height: 60vh;
+}
+
+.head{
+    font-size: 60px;
+    color: white;
+    padding-top: 200px;
+}
+
+.tail{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: white;
+}
+
+/*login-section*/
+
+.login-section{
+    padding: 100px 400px 250px 400px;
+    background-color: #F8F9FA;
+}
+
+.login-section .container{
+    padding: 60px 100px;
+}
+
+.title{
+    font-size: 40px;
+}
+
+.no-account a{
+    text-decoration: none;
+}
+
+/*footer*/
+
+footer{
+    background-color: #333333;
+    color: gray;
+    height: 50vh;
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    color: gray
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+    letter-spacing: 30px;
+}
+
+.icons a{
+    color: gray;
+}
+
+.icons a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+footer h5{
+    margin-top: 50px;
+}
+
+.defi, .icons{
+    margin-top: 50px;
+}
+
+.list-unstyled{
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.list-unstyled a:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.col-md-2{
+    padding-top: 50px;
+}
+
+.last-line{
+    margin-top: 50px;
+    word-spacing:10px;
+}
